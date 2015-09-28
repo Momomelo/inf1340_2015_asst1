@@ -13,8 +13,9 @@ __copyright__ = "2015 Susan Sim"
 __license__ = "MIT License"
 
 
+#This program will tell you the name of a shape based on the number of sides!
 def name_that_shape():
-	sides = raw_input("How many sides does your shape have?")
+	sides = raw_input("How many sides does your shape have?").lower()
 	if sides == "3" or sides =="three":
 		print ("triangle")
 	elif sides == "4" or sides == "four":
@@ -35,4 +36,4 @@ def name_that_shape():
 name_that_shape()
 
 #Notes: 
-#- Still need to make the user input string to not be case sensitive.
+#There has to be a smarter way to do this to cut redundancy...
