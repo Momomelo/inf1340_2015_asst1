@@ -32,7 +32,7 @@ def name_that_shape():
 		print ("nonagon")
 	else:
 		print ("Error")
-		sides
+
 
 name_that_shape()
 
