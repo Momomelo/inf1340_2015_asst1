@@ -32,8 +32,10 @@ def name_that_shape():
 		print ("nonagon")
 	else:
 		print ("Error")
+		sides
 
 name_that_shape()
 
 #Notes: 
 #There has to be a smarter way to do this to cut redundancy...
+# Please make the else statement loop to ask the user "How many sides does your shape have?" again."
