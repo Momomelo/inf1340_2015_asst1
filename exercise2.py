@@ -37,5 +37,5 @@ def name_that_shape():
 name_that_shape()
 
 #Notes: 
-#There has to be a smarter way to do this to cut redundancy...
+#There has to be a smarter way to do this to cut redundancy... And to not make it hard coded.
 # Please make the else statement loop to ask the user "How many sides does your shape have?" again."
