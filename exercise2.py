@@ -19,7 +19,7 @@ def name_that_shape():
 	if sides == "3" or sides =="three":
 		print ("triangle")
 	elif sides == "4" or sides == "four":
-		print ("square")
+		print ("quadrilateral")
 	elif sides == "5" or sides == "five":
 		print ("pentagon")
 	elif sides == "6" or sides == "six":
@@ -30,9 +30,10 @@ def name_that_shape():
 		print ("octagon")
 	elif sides == "9" or sides == "nine":
 		print ("nonagon")
+	elif sides == "10" or sides == "ten":
+		print ("decagon")
 	else:
 		print ("Error")
-
 
 name_that_shape()
 
