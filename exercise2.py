@@ -35,7 +35,7 @@ def name_that_shape():
 	else:
 		print ("Error")
 
-name_that_shape()
+#name_that_shape()
 
 #Notes: 
 #There has to be a smarter way to do this to cut redundancy... And to not make it hard coded.
