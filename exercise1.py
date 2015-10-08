@@ -12,18 +12,22 @@ __email__ = "ses@drsusansim.org"
 __copyright__ = "2015 Susan Sim"
 __license__ = "MIT License"
 
-stock_purchase =900*2000
-commision1 =0.03*(stock_purchase)
-stock_sold =942.75*2000
-commision2 =0.03*(stock_sold)
-money_left=stock_sold - stock_purchase - commision1 - commision2
-if(money_left > 0):
-    print("Lakshmi made a profit of:")
-    print(money_left)
-if(money_left < 0):
-    print("Lakshmi lost ")
-    print abs(money_left)
-    # The amount of money that Lakshmi lost should be a positive figure.
+
+# This program shows the money left after Lakshmi sold the stocks and pay the commission
+def stock_transactions():
+    stock_purchase =900*2000
+    commision1 =0.03*(stock_purchase)
+    stock_sold =942.75*2000
+    commision2 =0.03*(stock_sold)
+    money_left=stock_sold - stock_purchase - commision1 - commision2
+    if(money_left > 0):
+        print("Lakshmi made a profit of:")
+        print(money_left)
+    if(money_left < 0):
+        print("Lakshmi lost ")
+        print abs(money_left)
+        # The amount of money that Lakshmi lost should be a positive figure.
+stock_transactions()
 
 # Lakshmi lost $25065 after he sold the stock
 
