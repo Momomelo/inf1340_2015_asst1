@@ -13,7 +13,7 @@ __copyright__ = "2015 Susan Sim"
 __license__ = "MIT License"
 
 
-# This program shows the money left after Lakshmi sold the stocks and pay the commission
+# This function shows the money left after Lakshmi sold the stocks and pay the commission
 def stock_transactions():
     stock_purchase =900*2000
     commision1 =0.03*(stock_purchase)

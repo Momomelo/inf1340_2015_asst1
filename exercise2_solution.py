@@ -13,7 +13,7 @@ __copyright__ = "2015 Susan Sim"
 __license__ = "MIT License"
 
 
-#This program will tell you the name of a shape based on the number of sides!
+#name_that_shape() will tell you the name of a shape based on the number of sides! It has a limit of three to ten for sides.
 def name_that_shape():
 	sides = raw_input("How many sides does your shape have?").lower()
 	if sides == "3" or sides =="three":
@@ -37,6 +37,29 @@ def name_that_shape():
 
 #name_that_shape()
 
-#Notes: 
-#There has to be a smarter way to do this to cut redundancy... And to not make it hard coded.
-# Please make the else statement loop to ask the user "How many sides does your shape have?" again."
+#Notes:
+# Capitals is irrelevant due to the usage of the .lower() function.
+
+# Testing:
+# If the user inputs "5", the code will return "pentagon"
+# If the user inputs "200", the code will return "Error"
+# If the user inputs "5.0", the code will return "Error"
+# If the user inputs "-5", the code will return "Error"
+# If the user inputs "nine", the code will return "nonagon"
+# If the user inputs "FOUR", the code will return "quadrilateral"
+# If the user inputs "FoUr", the code will return "quadrilateral"
+# If the user inputs "asdf123" the code will return "Error"
+
+# Example Outputs:
+
+# How many sides does your shape have?10
+# decagon
+
+# How many sides does your shape have?NiNE
+# nonagon
+
+# How many sides does your shape have?over9000!
+# Error
+
+#How many sides does your shape have?5.00
+# Error
