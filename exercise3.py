@@ -3,7 +3,7 @@
 """ Assignment 1, Exercise 3, INF1340, Fall, 2015. Troubleshooting Car Issues.
 
 This module contains one function diagnose_car(). It is an expert system to
-interactive diagnose car issues.
+interactively diagnose car issues.
 
 """
 
@@ -16,6 +16,7 @@ __license__ = "MIT License"
 #Use nested if / elif / else to make a flowchart of diagnose_car
 #What do you think, is this a good solution?
 # It's super hard coded and not smart. There are better ways to do this.
+#You can enter letters from either upper case or lower case
 
 def diagnose_car():
 
